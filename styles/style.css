@@ -21,6 +21,7 @@ div.nav a:hover{
 div.nav{
 	position : absolute;
 	margin-left: 240px;
+	margin-right: 240px
 }
 #position,#position_two{
 	position:relative;
