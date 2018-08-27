@@ -14,12 +14,18 @@ div.nav a{
 	
 }
 div.nav a:hover{
-	background:;
+	background:red;
 	transform:scale(.9);
 	-webkit-transform:scale(.9);
 }
-#position,#position_two{
-	width:-200px;
+div.nav{
+	position : absolute;
+	margin-left: 240px;
+	margin-right: 240px
+}
+#position div.menu_two,#position_two div.menu_three{
+	position:absolute;
+	display:none;
 }
 #position:hover div.menu_two,#position_two:hover div.menu_three{
 	display:block;
