@@ -14,7 +14,7 @@ div.nav a{
 	
 }
 div.nav a:hover{
-	background:black;
+	background:red;
 	transform:scale(.9);
 	-webkit-transform:scale(.9);
 }
