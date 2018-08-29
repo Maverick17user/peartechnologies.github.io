@@ -46,10 +46,26 @@ nav{
    max-width: 100%;
    min-width: 100%;
 
+
+}
+.im{
+   background: url("images\205 (1).jpg");
 }
 #round{
-   border-radius: 50%;
-   border: 15px solid black;
+   border-radius: 5%;
+
+   border: 5px solid black;
+}
+p{
+   font-family: 'Pacifico', cursive;
+   padding-top: 30px;
+   font-size: 120px;
+   margin: auto;
+   text-align: center;
+   max-width: 100%;
+   min-width: 100%;
+
+
 }
 footer{
    width: 100%;
@@ -59,14 +75,17 @@ footer{
    text-align: center;
    padding-top: 25px;
 }
-
-p{
-   font-family: 'Pacifico', cursive;
-   margin-top: 30px;
-   font-size: 120px;
-   text-align: center;
+footer nav{
+   height: 10px;
 }
-
+footer .logo{
+   height: 100px
+}
+footer p{
+   color: white;
+   font-size: 20px;
+   padding: 0;
+}
 footer a{
    color: white;
    font-size: 14px;
@@ -74,4 +93,12 @@ footer a{
 }
 footer nav a:hover{
    border-bottom: 1px white solid;
+}
+.social img{
+   margin-bottom: 10px;
+   padding: 5px
+}
+.social img:hover{
+   background: #494949;
+   border-radius: 50%;
 }
